@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+        <item android:id="@+id/search_menu"
+             android:title="search bar"
+            />
+        <item android:id="@+id/insert_button"
+            android:title="insert button"/>
+    <item android:id="@+id/delete_button"
+        android:title="delete button"/>
+    <item android:id="@+id/update_button"
+        android:title="update button"
+        app:showAsAction = "withText"
+        />
+
+
+</menu>
